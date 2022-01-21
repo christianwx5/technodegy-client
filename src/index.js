@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import Inicio from './components/inicio/Inicio'
-import {
-    BrowserRouter as Router,
-    Routes,
-    Route,
-    Link,
-    NavLink
-  } from "react-router-dom";
+// import App from './App';
+// import Inicio from './components/inicio/Inicio'
+// import {
+//     BrowserRouter as Router,
+//     Routes,
+//     Route,
+//     Link,
+//     NavLink
+//   } from "react-router-dom";
 
 
 import reportWebVitals from './reportWebVitals';
@@ -19,7 +19,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
               
-		<Inicio/>									
+										
 										
   </React.StrictMode>,
   document.getElementById('general_services')
